@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="http://www.yourwebsite.com/favicon.png" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img class="menu-btn" src="img/menu-bar.png" alt="" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </header>
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img
+            src="https://cdn0-production-images-kly.akamaized.net/A80QWffmINWRZilxvUIGI3jTikE=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3222703/original/035203800_1598709768-20200829-Menjelajahi-Taman-Nasional-Komodo-dan-Raja-Ampat-Naik-Kapal-Pinisi-Mewah-1.jpg"
+            alt="img-boat"
+          />
+          <h4>Bajo Tour</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            provident maiores reprehenderit dolorum, nemo eaque harum quia
+            quaerat unde modi id odio iure, consectetur delectus aliquid!
+            Dolorem dolore reprehenderit ipsa.
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+          <img
+            src="https://www.ats-vacations.com/lib/upload/images/domestik/komodo6faa723cae16f11b50b29cab989a9738.jpg"
+            alt="img-komodo"
+          />
+          <h4>Komodo Fest</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            provident maiores reprehenderit dolorum, nemo eaque harum quia
+            quaerat unde modi id odio iure, consectetur delectus aliquid!
+            Dolorem dolore reprehenderit ipsa.
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE LABUAN BAJO</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+          perspiciatis consequuntur eaque unde neque provident molestiae, facere
+          quis autem, labore itaque ratione architecto hic impedit quisquam.
+          Error nobis temporibus accusamus.
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOUR & DESTINATION</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+            animi veritatis quo dolorem exercitationem explicabo at illo neque
+            modi vel excepturi, voluptatibus eos? Quos asperiores quae, dicta
+            fuga illum in!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="https://wallpaperaccess.com/full/4632383.png" alt="" />
+            <img
+              src="https://images.unsplash.com/photo-1550033588-6f3e54613d6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGFidWFuJTIwYmFqb3xlbnwwfHwwfHw%3D&w=1000&q=80"
+              alt=""
+            />
+            <img
+              src="https://images.unsplash.com/photo-1623916729476-03c4eda4ce2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFidWFuJTIwYmFqb3xlbnwwfHwwfHw%3D&w=1000&q=80"
+              alt=""
+            />
+            <img
+              src="https://kambinggunung.com/wp-content/uploads/2019/06/Pink-Beach-819x1024.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>Copyright &copy; 2022 Awan Pijar Andika</p>
+    </section>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
